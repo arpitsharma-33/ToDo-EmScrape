@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        width: 240px;
+        background-color: white;
+    }
+    .main{
+        width: 240px;
+        background-color: #000;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="center">
+                <button class="button-92" role="button">Scrape Emails</button>
+        </div>
+        <div class="em">
+                <ul id="emailList"></ul>
+        </div>
+    </div>
+    <span id="diff">________________________________________________</span>
+
+    <h1>My Todo's</h1>
+
+    <button class="create-todo">What Next 🤔</button>
+    <div class="container">
+        <div class="new-item">
+            <input type="text" placeholder="Add in List " />
+            <button id="save">Save</button>
+        </div>
+    </div>
+    
+    <ul class="todo-items">      
+    </ul>
+
+    <script src="popout.js"></script>
+</body>
+</html>

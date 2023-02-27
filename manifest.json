@@ -1,0 +1,15 @@
+{
+    "name":"ToDo/EmScrape",
+    "version":"1.0.0",
+    "description":"Make Your ToDo List 🤔 || Scrape Emails From Any Web Page 📧 ",
+    "action":{
+        "default_title":"ToDo/EmScrape",
+        "default_popup":"popup.html",
+        "default_icon":"Think.png"
+    },
+    "icons":{
+        "920":"Think.png"
+    },
+    "manifest_version":3,
+    "permissions": ["activeTab","scripting","storage"]
+}
